@@ -59,6 +59,7 @@ command example : python3 adventureworld.py -f terrain_day.csv -p param_normal.c
 Batch mode - python3 adventureworld.py -f terrain_day.csv -p param_normal.csv
 
 https://github.com/Unbee-lee/Themepark-Simulation/blob/main/Scenario1.png
+
 !(Scenario1.png)
 
 ## Scenario 2 - Cloudy version initialized with 30 patrons
