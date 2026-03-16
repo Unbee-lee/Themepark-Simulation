@@ -12,29 +12,42 @@ total revenue. The map that serves as the base for the ride has day, cloudy days
 implemented, and a button has been implemented on the plot so that when you press the button, it
 suddenly starts raining.
 
-## Contents
-Themepark simulation using the matplotlib. 
-Patrons can go for a ride within the theme park and they have a targeted movement.
-Also they avoid the boundary of the objects.
-Ride has their own status and they check the queue. 
+## Structure
+```text
+Themepark-Simulation/                 # Project Container
+├── adventureworld.py                 # Entry point to run the entire simulation
+├── patron.py                         # Patron object
+├── terrain.py                        # Terrain setup
+├── rides/                            # Submodule for theme park rides
+│   ├── carousel.py                   # Plot Carousel
+│   ├── ferris.py                     # Plot Ferris wheel
+|   |── gyro.py                       # Plot Gyrodrop
+|   |── pirate.py                     # Plot Pirate ship
+│   └── ride.py                       # Base class for all ride types
+├── objects/                          # Submodule for obstacles
+│   └── building.py                   # Static obstacles
+├── param_blank.csv                   # Uses default values (empty file)
+├── param_error.csv                   # Uses default values (fallback for invalid parameters)
+├── param_normal.csv                  # Standard operational parameters
+├── terrain_cloudy.csv                # Terrain parameter: Cloudy weather
+├── terrain_day.csv                   # Terrain parameter: Day
+├── terrain_night.csv                 # Terrain parameter: Night
+```
 
-adventureworld.py 
-patron.py
-terrain.py
-ride.py
-building.py
-pirate.py
-gyro.py
-ferris.py
-carousel.py
+## Project Setup and Usage
 
-## Dependencies
-matplotlib
-numpy
+### 1. Environment Setup
+Python 3.10.14
 
-## entry point
-adventureworld.py
+### 2. Running the program
+
+#### Interactive Mode : python3 adventureworld.py -i
+Interactive mode will ask for number/type of rides and any other variables you include
+
+#### Batch Mode : python3 adventureworld.py -f terrain_day.csv -p param_normal.csv
+In batch mode, you will use command line parameters to get the terrain and parameters
 
 ## Version information
 4/10/2025 - initial version of 9 programs
+
 
