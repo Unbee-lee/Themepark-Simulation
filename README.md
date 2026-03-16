@@ -1,9 +1,7 @@
 ## Synopsis
-Assignment of Fundamentals of Programming COMP5005
+Assignment of Fundamentals of Programming(COMP5005)
 
 ## Contents
-README – readme file for Assignment
-
 Themepark simulation using the matplotlib. 
 Patrons can go for a ride within the theme park and they have a targeted movement.
 Also they avoid the boundary of the objects.
@@ -25,7 +23,6 @@ numpy
 
 ## entry point
 adventureworld.py
-
 
 ## Version information
 4/10/2025 - initial version of 9 programs
