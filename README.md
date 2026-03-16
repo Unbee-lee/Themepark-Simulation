@@ -1,6 +1,6 @@
 ## Overview
 The program simulates a theme park with 4 rides, which are Pirate Ship, Ferris Wheel, Gyrodrop and
-Carousel, with varying movement patterns. 
+Carousel, with varying movement patterns and provides realtime and summary statistics of each of simulations.
 
 Each ride has a queue to handle waiting passengers, and patrons wait in each queue. Rides have different statuses: “idle”, “loading”, “riding”, and “unloading”. They check the queues and load passengers according to the ride's capacity. Rides operate according to their respective durations, and when the ride concludes, patrons exit through the ride's exit.
 
