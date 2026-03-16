@@ -37,15 +37,20 @@ Python 3.10.14
 
 ### 2. Dependencies
 numpy
+
 matplotlib
 
 ### 3. Running the program
 
-#### Interactive Mode : python3 adventureworld.py -i
+#### - Interactive Mode
 Interactive mode will ask for number/type of rides and any other variables you include
 
-#### Batch Mode : python3 adventureworld.py -f terrain_day.csv -p param_normal.csv
+command example : python3 adventureworld.py -i
+
+#### - Batch Mode  
 In batch mode, you will use command line parameters to get the terrain and parameters
+
+command example : python3 adventureworld.py -f terrain_day.csv -p param_normal.csv
 
 ## Version information
 4/10/2025 - initial version of 9 programs
