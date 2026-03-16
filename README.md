@@ -58,19 +58,17 @@ command example : python3 adventureworld.py -f terrain_day.csv -p param_normal.c
 ## Scenario 1 - Day version initialized with 10 patrons
 Batch mode - python3 adventureworld.py -f terrain_day.csv -p param_normal.csv
 
-https://github.com/Unbee-lee/Themepark-Simulation/blob/main/Scenario1.png
-
 ![Scenario 1](Scenario1.png)
 
 ## Scenario 2 - Cloudy version initialized with 30 patrons
 Batch mode - python3 adventureworld.py -f terrain_cloudy.csv -p param_normal.csv
 
-https://github.com/Unbee-lee/Themepark-Simulation/blob/main/Scenario_2.png
+![Scenario 2](Scenario_2.png)
 
 ## Scenario 3 - Night version initialized with 20 patrons
 Batch mode - python3 adventureworld.py -f terrain_night.csv -p param_normal.csv
 
-https://github.com/Unbee-lee/Themepark-Simulation/blob/main/Scenario_3.png
+![Scenario 3](Scenario_3.png)
 
 ## Future work
 For more detailed analysis, data on the average number of rides per person and peak usage rates for each weather condition can be utilised. Furthermore, while each ride currently has the same ticket price, this analysis can be used to increase ticket prices for popular rides, further increasing revenue. It would also be effective to compare data when operating strategies were applied differently by varying the number of operating rides, even though all rides were operated in each scenario.
