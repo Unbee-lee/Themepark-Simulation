@@ -71,7 +71,7 @@ Batch mode - python3 adventureworld.py -f terrain_night.csv -p param_normal.csv
 ![Scenario 3](Scenario_3.png)
 
 ## Future work
-For more detailed analysis, data on the average number of rides per person and peak usage rates for each weather condition can be utilised. Furthermore, while each ride currently has the same ticket price, this analysis can be used to increase ticket prices for popular rides, further increasing revenue. It would also be effective to compare data when operating strategies were applied differently by varying the number of operating rides, even though all rides were operated in each scenario.
+For more detailed analysis, data on the average number of rides per person and peak usage rates for each weather condition can be utilised. Furthermore, while each ride currently has the same ticket price, this analysis can be used to increase ticket prices for popular rides, further increasing revenue. It would also be effective to compare data when operating strategies were applied differently by varying the number of operating rides, even though all rides were operated in each scenario. Furthermore, the analysis can be enhanced by integrating real-time statistical updates alongside cumulative summary statistics during program execution, rather than displaying them only upon completion.
 
 
 
